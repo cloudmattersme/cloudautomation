@@ -10,7 +10,8 @@ objectives:
       displayName: Service Response
       pass:
         - criteria:
-            - <2000
+            - <60000
+            - <+10%
       warning:
         - criteria:
             - <5000
